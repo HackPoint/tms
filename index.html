@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en" ng-app="tms-bitcoin">
+<head>
+    <meta charset="UTF-8">
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/materialize-css/dist/css/materialize.min.css">
+
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TMS - Bitcoin</title>
+</head>
+<body>
+<nav>
+    <div class="nav-wrapper">
+        <a href="#" class="brand-logo">TMS-BITCOIN</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+        </ul>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="row" style="margin-top: 100px">
+        <div class="col s12">
+            <currency></currency>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="node_modules/angular/angular.min.js"></script>
+    <script src="node_modules/materialize-css/dist/js/materialize.min.js"></script>
+    <script src="app/bootstrap.js"></script>
+    <script src="app/services/bitcoin.service.js"></script>
+    <script src="app/components/tms-select/select.component.js"></script>
+    <script src="app/bitcoin-pricing.app.js"></script>
+</body>
+</html>
